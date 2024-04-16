@@ -1,0 +1,105 @@
+body { 
+  background-color: black;
+  background-image: url(/pictures/backgrounds/BurntOrange.jpg);
+  text-align: center;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  overflow: -moz-scrollbars-vertical;
+} 
+
+A: { text-decoration: none; color: blue; }
+A:link { text-decoration: none; color: blue; }
+A:visited { text-decoration: none; color: purple; }
+A:hover { text-decoration: underline; color: blue; background-color: none;}
+A:active { text-decoration: none; color: blue; }
+
+div.container {
+  margin: 0 auto;
+  width: 1000px;
+} 
+
+p.MenuFont {
+  font-family: Arial; 
+  font-size: 16px; 
+  font-weight: bold;
+}
+
+p.HeaderText {
+  font-family: verdana;
+  font-size: 25px;
+  font-weight: bold;
+  color: black; 
+  margin-top: 2%; margin-bottom: 2%; margin-left: 6%; margin-right: 6%; 
+  margin-left:210px;
+}
+p.SubHeaderText {
+  font-family: tahoma;
+  font-size: 16px;
+  font-weight: bold;
+  color: black; 
+}
+
+p.BodyText {
+  font-family: verdana;
+  font-size: 15px;
+  color: black; 
+  margin-top: 2%; margin-bottom: 2%; margin-left: 6%; margin-right: 6%; 
+  margin-left:210px;
+}
+
+p.LinksMenuText {
+  font-family: tahoma;
+  font-size: 15px;
+  font-weight: bold;
+  color: black; 
+}
+
+table.MainTable { 
+  background-image: url(/pictures/backgrounds/MainTableBG.jpg);
+  border-width: 0px;
+  width: 1000px;
+  margin-left: auto; 
+  margin-right:auto;
+} 
+
+table.LinksTable { 
+  background-image: url(/pictures/backgrounds/BlueSparkle.jpg);
+  border-width: 5px;
+  width: 750px;
+} 
+
+table.SubHeading { 
+  background-image: url(/pictures/backgrounds/MainTableBG.jpg);
+  border-width: 0px;
+  width: 850px;
+  text-align: center;
+} 
+
+table.SubHeading2 { 
+  background-image: url(/pictures/backgrounds/MainTableBG.jpg);
+  border-width: 0px;
+  width: 750px;
+  text-align: center;
+} 
+
+img.RedBorder {
+  border-style: solid;
+  border-color: #8B0000;
+  border-width: 2px;
+}
+
+
+img.BlackBorder {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+
+div.Menu {
+  text-align: center;
+  A:link { text-decoration: none; color: black; }
+  A:visited { text-decoration: none; color: purple; }
+  A:hover { text-decoration: none; color: blue; } 
+  A:active { text-decoration: none; color: black; } 
+}
